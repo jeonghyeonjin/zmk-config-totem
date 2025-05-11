@@ -106,10 +106,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &kp DE_Q  &kp DE_W  &kp DE_E                    &kp DE_R   &kp DE_T     &kp DE_Z        &kp DE_U   &kp DE_I             &kp DE_O    &kp DE_P
-                      &kp DE_A  &kp DE_S  &kp DE_D                    &kp DE_F   &kp DE_G     &kp DE_H        &kp DE_J   &kp DE_K             &kp DE_L    &kp DE_SEMICOLON
-&mt LEFT_CONTROL ESC  &kp DE_Y  &kp DE_X  &kp DE_C                    &kp DE_V   &kp DE_B     &kp DE_N        &kp DE_M   &kp DE_COMMA         &kp DE_DOT  &kp DE_SLASH      &kp DE_DOUBLE_QUOTES
-                                          &mt LEFT_COMMAND BACKSPACE  &lt 1 TAB  &kp SPACE    &sk LEFT_SHIFT  &lt 2 TAB  &mt LEFT_ALT DELETE
+                      &kp DE_Q  &kp DE_W  &kp DE_E                    &kp DE_R   &kp DE_T     &kp DE_Z   &kp DE_U        &kp DE_I              &kp DE_O    &kp DE_P
+                      &kp DE_A  &kp DE_S  &kp DE_D                    &kp DE_F   &kp DE_G     &kp DE_H   &kp DE_J        &kp DE_K              &kp DE_L    &kp DE_SEMICOLON
+&mt LEFT_CONTROL ESC  &kp DE_Y  &kp DE_X  &kp DE_C                    &kp DE_V   &kp DE_B     &kp DE_N   &kp DE_M        &kp DE_COMMA          &kp DE_DOT  &kp DE_SLASH      &kp DE_DOUBLE_QUOTES
+                                          &mt LEFT_COMMAND BACKSPACE  &kp SPACE  &lt 1 TAB    &lt 2 TAB  &sk LEFT_SHIFT  &mt RIGHT_ALT DELETE
             >;
         };
 
@@ -161,7 +161,7 @@
         &kp DE_EXCLAMATION  &kp DE_AT        &kp DE_HASH  &kp DE_DOLLAR  &kp DE_PERCENT          &kp DE_CARET  &kp DE_AMPERSAND  &kp DE_STAR  &kp DE_APOSTROPHE  &kp DE_DOUBLE_QUOTES
         &kp RA(A)           &kp DE_QUESTION  &kp RA(S)    &trans         &trans                  &kp C_MUTE    &kp PRINTSCREEN   &kp RA(N5)   &kp RA(N4)         &kp RA(O)
 &trans  &kp RA(F18)         &kp RA(F19)      &trans       &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC    &kp C_VOL_DN  &kp C_VOL_UP      &kp C_PREV   &kp C_NEXT         &kp DE_BACKSLASH      &trans
-                                             &trans       &gif           &mo 3                   &trans        &kp C_PP          &trans
+                                             &trans       &mo 3          &trans                  &trans        &kp C_PP          &trans
             >;
         };
 
