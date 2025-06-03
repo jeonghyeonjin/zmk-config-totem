@@ -2,18 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer # <--- add this
-      url-base: https://github.com/janpfischer # <--- and this
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module # <--- and these
-      remote: janpfischer # <---
-      revision: output_status # <---
-    - name: jpf_display # <--- and these
-      remote: janpfischer # <---
-      revision: main # <---
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
   self:
     path: config
