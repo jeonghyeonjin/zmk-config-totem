@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: jeonghyeonjin
+      url-base: https://github.com/jeonghyeonjin
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,8 @@ manifest:
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: 0.1.2
+    - name: zmk-paw3395-driver
+      remote: jeonghyeonjin
+      revision: main
   self:
     path: config
