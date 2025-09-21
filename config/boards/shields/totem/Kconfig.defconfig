@@ -18,6 +18,13 @@ config ZMK_SPLIT
 
 endif
 
+if ZMK_MOUSE
+
+config SPI
+  default y
+
+endif # ZMK_MOUSE
+
 if SHIELD_TOTEM_DONGLE
 
 # Max 16 characters in keyboard name
